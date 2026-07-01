@@ -3,6 +3,8 @@ import Landing from './pages/Landing'
 import Register from './pages/Register'
 import Login from './pages/Login'
 import Dashboard from './pages/Dashboard'
+import ExerciceCE from './pages/ExerciceCE'
+import ExerciceEE from './pages/ExerciceEE'
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Route path="/inscription" element={<Register />} />
         <Route path="/connexion" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/exercice/ce" element={<ExerciceCE />} />
+        <Route path="/exercice/ee" element={<ExerciceEE />} />
       </Routes>
     </BrowserRouter>
   )
